@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: TT Norms W05 Regular, Myriad W08 Regular, Segoe UI, Arial, PingFang TC, Microsoft JhengHei, sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+#header {
+    background-color: #ffffff;
+
+}
+
+#imgheader {
+    width: 78px;
+    margin-left: 140px;
+}
+
+hr {
+    border: 1px solid #cccccc;
+}
+
+#div-body {
+    width: 100%;
+    height: 640px;
+    box-sizing: border-box;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    width: 980px;
+    height: 600px;
+    background-color: #ffffff;
+    margin: 35px 243px;
+    border-radius: 10px;
+}
+
+#login-main {
+    display: flex;
+    width: 998px;
+    height: 600px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+#login-left {
+    display: flex;
+    width: 459px;
+    height: 549px;
+    position: relative;
+    margin: 20px 20px;
+    border-right-width: 0.8px;
+    border-right-style: solid;
+    border-right-color: rgb(229, 229, 229);
+}
+
+#img-ul {
+    width: 382.5px;
+    height: 549px;
+    position: absolute;
+}
+
+#imgbody {
+    display: block;
+    width: 90%;
+    margin: auto 40px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 44px;
+    letter-spacing: -0.02px;
+    margin-top: -10px;
+}
+
+#h2-left {
+    font-size: 19px;
+    font-weight: 400px;
+    color: #585858;
+    margin-top: 5px;
+}
+
+#ul-left {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.li-left {
+    margin-top: 10px;
+}
+
+.icon {
+    padding-right: 10px;
+    color: #5b5b5b;
+    font-size: 20px;
+}
+
+#login-right {
+    width: 419px;
+    right: 557px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#test {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input {
+    width: 406px;
+    height: 48px;
+    border: 1px solid #909090;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+input:hover {
+    border: 1px solid blue;
+}
+
+span {
+    font-size: 13px;
+    margin-left: 12px;
+    color: #696969;
+}
+
+#icon-right {
+    margin-top: 30px;
+    margin-left: -35px;
+    position: absolute;
+    color: #6e6e6e;
+}
+
+#remmber {
+    width: 419px;
+    height: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10ox;
+}
+
+#rem {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#p-rem {
+    padding-left: 35px;
+    margin-top: -21px;
+    cursor: pointer;
+
+}
+
+#forget {
+    margin-left: 118px;
+    margin-top: 8px;
+}
+
+#sing {
+    margin-top: 35px;
+    background-color: #006ce1;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+#sing:hover {
+    filter: brightness(70%);
+}
+
+#signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#last-p {
+    color: #545454;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+/* #sign::before {
+    border-bottom: 5px solid #545454 ;
+}
+#sign::after{
+    
+} */
+
+#virtual {
+    width: 419px;
+    height: 48px;
+    margin-top: 30px;
+
+
+}
+
+.icon-bottom {
+    font-size: 30px;
+    padding-left: 80px;
+
+}
+
+#fb {
+    margin-left: 30px;
+
+}
+
+#google {
+    margin-left: -30px;
+}
+
+#apple {
+    margin-left: -35px;
+}
+
+#test {
+    width: 48px;
+    height: 48px;
+}
+
+
+/* #google:hover{
+    width: 32px;
+    height: 32px;
+    background-color: khaki;
+} */
+
+
+
+
+
+#footer-bottom {
+    width: 100%;
+    height: 55px;
+    background-color: #f5f5f5;
+}
+
+#ul-footer-bottom {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+
+}
+
+.li-bottom {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+/* .border {
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: black;
+} */
+
+#font-li {
+
+    font-size: 13px;
+    color: #777777;
+}
+
+.footer-a {
+    font-size: 13px;
+    color: #777777;
+}
+
+#ul-footer-bottom #li-bottom-last:last-child {
+    margin-left: 680px;
+}
